@@ -1,6 +1,6 @@
 Package.describe({
   name: 'roshdy:reactive-countdown',
-  version: '0.0.4',
+  version: '0.0.3',
   summary: 'A simple reactive countdown timer for Meteor',
   git: 'https://github.com/roshdy-sk/meteor-reactive-countdown.git',
   documentation: 'README.md'
