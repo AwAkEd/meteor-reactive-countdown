@@ -1,7 +1,7 @@
 /**
- * flyandi:reactivecountdown 
+ * roshdy:reactivecountdown 
  * A simple reactive countdown timer library
- * @version: v0.0.1
+ * @version: v0.0.4
  * @author: Andy Schwarz
  *
  * Created by Andy Schwarz. Please report any bug at http://github.com/flyandi/meteor-reactive-countdown
@@ -105,7 +105,7 @@ ReactiveCountdown = (function () {
 
     ReactiveCountdown.prototype.getFormattedObject = function(seconds){
 
-        var ms = (seconds | this.__current) * 1000;
+        var ms = (seconds | this._current) * 1000;
 
         return {
             seconds: Math.floor((ms % 6e4) / 1e3),
